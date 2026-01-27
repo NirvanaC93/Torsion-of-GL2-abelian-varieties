@@ -59,24 +59,30 @@ for N:=Nlbd to Nubd do
         if D eq deg then
             chi:= DirichletCharacter(f); //Nebentypus character
             K:=CoefficientField(f);
+            OK:=Integers(K);
             L:=[];
             LNp:=[];
-            for p in PrimesInInterval(3,st) do
-                if N mod p ne 0 then
-                    bp := 1;
-                    chip:=chi(p);
-                    Fchi:=Parent(chip);
-                    F:=Compositum(Fchi,K);
-                    x := F!(p+1-Coefficient(f,p));
-                    X := Integers()!Norm(x);
-                    fac := Factorization(X);
-                    for i := 1 to #fac do
-                        l:=fac[i][1];
-                        fn:=TorsionValuation(K, l, x);
-                        bp := bp * l ^ fn;
-                    end for;
-                    L:=Append(L,bp);
-                    LNp:=Append(LNp,X);
+            for p in PrimesInInterval(2,st) do
+                Facp:=Factorization(p*OK);
+                ram:=[e[2] : e in Facp];
+                ep:=Max(ram); // Absolute ramification index
+                if ep lt p-1 then
+                    if N mod p ne 0 then
+                        bp := 1;
+                        chip:=chi(p);
+                        Fchi:=Parent(chip);
+                        F:=Compositum(Fchi,K);
+                        x := F!(p+1-Coefficient(f,p));
+                        X := Integers()!Norm(x);
+                        fac := Factorization(X);
+                        for i := 1 to #fac do
+                            l:=fac[i][1];
+                            fn:=TorsionValuation(K, l, x);
+                            bp := bp * l ^ fn;
+                        end for;
+                        L:=Append(L,bp);
+                        LNp:=Append(LNp,X);
+                    end if;
                 end if;
             end for;
             g:=GCD(L);
