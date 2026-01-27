@@ -51,19 +51,23 @@ list := [];
 list_of_primes := [];
 for N:=Nlbd to Nubd do
     S:=CuspForms(Gamma0(N),2);
-    st:=PrecisionBound(S); 
+    st:=Max(PrecisionBound(S),50); 
     nfs := Newforms(S);
     for i:=1 to #nfs do
         f:=nfs[i][1];
         D:=Degree(f);
         if D eq deg then
+            chi:= DirichletCharacter(f); //Nebentypus character
             K:=CoefficientField(f);
             L:=[];
             LNp:=[];
             for p in PrimesInInterval(3,st) do
                 if N mod p ne 0 then
                     bp := 1;
-                    x := p+1-Coefficient(f,p);
+                    chip:=chi(p);
+                    Fchi:=Parent(chip);
+                    F:=Compositum(Fchi,K);
+                    x := F!(p+1-Coefficient(f,p));
                     X := Integers()!Norm(x);
                     fac := Factorization(X);
                     for i := 1 to #fac do
