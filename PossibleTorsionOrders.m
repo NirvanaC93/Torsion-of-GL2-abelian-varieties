@@ -90,46 +90,23 @@ for N:=Nlbd to Nubd do
             if g eq gp then
                 if g notin list_naive then 
                     list_naive := Append(list_naive,g);
-                end if;
-                if g notin list then
-                    list := Append(list,g);
                     F := Factorization(g);
                     for i := 1 to #F do
                     if F[i][1] notin list_of_primes then
                     list_of_primes:=Append(list_of_primes,F[i][1]);
                     end if;
                     end for;
+                end if;
+                if g notin list then
+                    list := Append(list,g); 
                 end if;
                 print "N =", N;
                 print "f =", f;
                 print "torsion order equal to bound =", g;
-                else
-                cv := true;
-                facg := Factorization(g);
-                for i := 1 to #facg do
-                    l:=facg[i][1];
-                    if not CorrectValuation(K,l) then 
-                        cv := false;
-                    end if;
-                end for;
-                if g notin list_naive then
-                    list_naive:=Append(list_naive,g);
-                    F := Factorization(g);
-                    for i := 1 to #F do
-                    if F[i][1] notin list_of_primes then
-                    list_of_primes:=Append(list_of_primes,F[i][1]);
-                    end if;
-                    end for;
-                end if;
-                if g notin list and cv then
-                    list:=Append(list,g);
-                end if;
+            else
                 print "N =", N;
                 print "f =", f;
                 print "naive_torsion_order =", g; //this number divides the torsion order of an abelian variety isogenous to A_f. It is equal if the primes dividing g have a unique prime above them in K.
-                if cv then
-                    print "torsion_order =", g;
-                end if;
             end if;
         end if;
     end for;
