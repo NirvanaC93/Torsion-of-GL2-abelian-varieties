@@ -46,7 +46,7 @@ end function;
 
 
 function PossibleTorsionOrders(Nlbd,Nubd, deg)
-list_naive := [];
+list_predicted := [];
 list := [];
 list_of_primes := [];
 for N:=Nlbd to Nubd do
@@ -88,8 +88,8 @@ for N:=Nlbd to Nubd do
             g:=GCD(L);
             gp := GCD(LNp);
             if g eq gp then
-                if g notin list_naive then 
-                    list_naive := Append(list_naive,g);
+                if g notin list_predicted then 
+                    list_predicted := Append(list_predicted,g);
                     F := Factorization(g);
                     for i := 1 to #F do
                     if F[i][1] notin list_of_primes then
@@ -102,16 +102,16 @@ for N:=Nlbd to Nubd do
                 end if;
                 print "N =", N;
                 print "f =", f;
-                print "torsion order equal to bound =", g;
+                print "predicted torsion order equal to bound =", g;
             else
                 print "N =", N;
                 print "f =", f;
-                print "naive_torsion_order =", g; //this number divides the torsion order of an abelian variety isogenous to A_f. It is equal if the primes dividing g have a unique prime above them in K.
+                print "predicted torsion order =", g; //this number divides the torsion order of an abelian variety isogenous to A_f. It is equal if the primes dividing g have a unique prime above them in K.
             end if;
         end if;
     end for;
 end for;
-return list_naive,list,list_of_primes;
+return list_predicted,list,list_of_primes;
 end function;
 
 
