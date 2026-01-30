@@ -104,6 +104,15 @@ for N:=Nlbd to Nubd do
                 print "f =", f;
                 print "predicted torsion order equal to bound =", g;
             else
+                if g notin list then
+                    list := Append(list,g); 
+                    F := Factorization(g);
+                    for i := 1 to #F do
+                    if F[i][1] notin list_of_primes then
+                    list_of_primes:=Append(list_of_primes,F[i][1]);
+                    end if;
+                    end for;
+                end if;
                 print "N =", N;
                 print "f =", f;
                 print "predicted torsion order =", g; //this number divides the torsion order of an abelian variety isogenous to A_f. It is equal if the primes dividing g have a unique prime above them in K.
