@@ -89,16 +89,16 @@ for N:=Nlbd to Nubd do
             gp := GCD(LNp);
             if g eq gp then
                 if g notin list_predicted then 
-                    list_predicted := Append(list_predicted,g);
+                    list_predicted := Append(list_predicted,g); 
+                end if;
+                if g notin list then
+                    list := Append(list,g); 
                     F := Factorization(g);
                     for i := 1 to #F do
                     if F[i][1] notin list_of_primes then
                     list_of_primes:=Append(list_of_primes,F[i][1]);
                     end if;
                     end for;
-                end if;
-                if g notin list then
-                    list := Append(list,g); 
                 end if;
                 print "N =", N;
                 print "f =", f;
