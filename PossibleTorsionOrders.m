@@ -45,7 +45,7 @@ end function;
 
 
 
-function PossibleTorsionOrders(Nlbd,Nubd, deg)
+function PossibleTorsionOrders(Nlbd,Nubd,deg)
 list_predicted := [];
 list := [];
 list_of_primes := [];
