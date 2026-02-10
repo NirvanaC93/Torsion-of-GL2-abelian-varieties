@@ -17,8 +17,6 @@ function TorsionValuation(K, l, x)
         error "No prime ideals found above", l;
     end if;
     
-
-
     // Select the nth prime ideal above l
     for n := 1 to #fac do
         lambda := fac[n][1];
@@ -33,29 +31,33 @@ function TorsionValuation(K, l, x)
     return m;
 end function;
 
-function CorrectValuation(K,l)
+function CorrectValuation(K, l)
     OK := Integers(K);
     F := Factorization( l*OK );
     if #F eq 1 and F[1][2] eq 1 then
+    // If the prime l is totally inert then the valuation computed is correct
         return true;
     else
         return false;
     end if;
 end function;
 
-
-
-function PossibleTorsionOrders(Nlbd,Nubd,deg)
+function PossibleTorsionOrders(Nlbd, Nubd, deg)
+// list of the predicted torsion orders for the A_f
 list_predicted := [];
+// list of the torsion orders matching the bound
 list := [];
+// list of the primes dividing the predicted torsion orders
 list_of_primes := [];
 for N:=Nlbd to Nubd do
+// Compute the newforms of level N and weight 2
     S:=CuspForms(Gamma1(N),2);
-    st:=Max(PrecisionBound(S),50); 
+    st:=Max(PrecisionBound(S),50); // Precision bound for the Fourier coefficients
     nfs := Newforms(S);
     for i:=1 to #nfs do
         f:=nfs[i][1];
         D:=Degree(f);
+        // Check if the degree of the newform matches the specified degree
         if D eq deg then
             chi:= DirichletCharacter(f); //Nebentypus character
             K:=CoefficientField(f);
@@ -66,8 +68,10 @@ for N:=Nlbd to Nubd do
                 Facp:=Factorization(p*OK);
                 ram:=[e[2] : e in Facp];
                 ep:=Max(ram); // Absolute ramification index
+                // Check if torsion injects into the reduction
                 if ep lt p-1 then
                     if N mod p ne 0 then
+                    // Compute P_p^\lambda(1) and the corresponding valuation at l of the torsion order
                         bp := 1;
                         chip:=chi(p);
                         Fchi:=Parent(chip);
@@ -85,14 +89,17 @@ for N:=Nlbd to Nubd do
                     end if;
                 end if;
             end for;
+            // Take the gcd over all primes
             g:=GCD(L);
+            // Take the gcd of the rational points over the reductions for the same primes
             gp := GCD(LNp);
             if g eq gp then
-                if g notin list_predicted then 
-                    list_predicted := Append(list_predicted,g); 
-                end if;
-                if g notin list then
+            // If they are equal, then the precited order is equal to the bound. We add it to all the lists.
+                if g notin list then 
                     list := Append(list,g); 
+                end if;
+                if g notin list_predicted then
+                    list_predicted := Append(list_predicted,g); 
                     F := Factorization(g);
                     for i := 1 to #F do
                     if F[i][1] notin list_of_primes then
@@ -104,8 +111,9 @@ for N:=Nlbd to Nubd do
                 print "f =", f;
                 print "predicted torsion order equal to bound =", g;
             else
-                if g notin list then
-                    list := Append(list,g); 
+            // If they are not equal, we only add it to the list of the predicted torsion orders.
+                if g notin list_predicted then
+                    list_predicted := Append(list_predicted,g); 
                     F := Factorization(g);
                     for i := 1 to #F do
                     if F[i][1] notin list_of_primes then
