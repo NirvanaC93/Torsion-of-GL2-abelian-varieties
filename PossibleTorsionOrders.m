@@ -73,10 +73,11 @@ for N:=Nlbd to Nubd do
                     if N mod p ne 0 then
                     // Compute P_p^\lambda(1) and the corresponding valuation at l of the torsion order
                         bp := 1;
+                        ap := Coefficient(f, p);
                         chip:=chi(p);
                         Fchi:=Parent(chip);
                         F:=Compositum(Fchi,K);
-                        x := F!(p+1-Coefficient(f,p));
+                        x := F!chip*p+1-ap;
                         X := Integers()!Norm(x);
                         fac := Factorization(X);
                         for i := 1 to #fac do
