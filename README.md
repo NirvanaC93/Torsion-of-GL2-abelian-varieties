@@ -1,4 +1,4 @@
-This repo contains auxiliary code and files that complement our paper "Torsion points on $\GL_2$-type abelian varieties".
+This repo contains auxiliary code and files that complement our paper "Torsion points on GL_2-type abelian varieties".
 The file "PossibleTorsionOrders.m" is a MAGMA files with the following functions:
  - TorsionValuation(K, l, x)
    the inputs are a number field K, a rational prime l and an element x of K;
