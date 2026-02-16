@@ -121,7 +121,7 @@ for N := Nlbd to Nubd do
         end if;
     end for;
 end for;
-return list_predicted,  list,   list_of_primes;
+return list_predicted, list, list_of_primes;
 end function;
 
 
