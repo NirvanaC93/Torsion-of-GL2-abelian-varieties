@@ -409,5 +409,3 @@ predicted torsion order equal to bound = 7
 ]
 [ 29, 13, 11, 16, 1, 8, 6, 38, 68, 5, 7, 4, 46, 35, 21, 25, 2, 19, 3, 23, 10 ]
 [ 29, 13, 11, 2, 3, 19, 17, 5, 7, 23 ]
-
-Total time: 74532.560 seconds, Total memory usage: 1456.47MB
