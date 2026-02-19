@@ -6030,7 +6030,620 @@ predicted torsion order equal to bound = 3
 N = 462
 f = q - a*q^2 + (-a - 1)*q^3 + (-a - 1)*q^4 - 3*a*q^5 - q^6 + (-a + 2)*q^7 - q^8
 + a*q^9 + (-3*a - 3)*q^10 + (a + 1)*q^11 + O(q^12)
-predicted tor+ (-2*a - 1)*q^11 + O(q^12)
+predicted torsion order equal to bound = 3
+N = 462
+f = q - a*q^2 + (-a - 1)*q^3 + (-a - 1)*q^4 + 3*a*q^5 - q^6 + (a - 2)*q^7 - q^8 
++ a*q^9 + (3*a + 3)*q^10 + (a + 1)*q^11 + O(q^12)
+predicted torsion order equal to bound = 1
+N = 464
+f = q + a*q^3 + (2*a - 3)*q^5 + 4*q^7 + (2*a - 2)*q^9 + (-a + 2)*q^11 + O(q^12)
+predicted torsion order equal to bound = 1
+N = 464
+f = q + a*q^3 - q^5 + (-2*a - 2)*q^7 + (-2*a - 2)*q^9 + (-a - 2)*q^11 + O(q^12)
+predicted torsion order equal to bound = 1
+N = 464
+f = q - 4*a*q^5 + 3*a*q^9 + O(q^12)
+predicted torsion order equal to bound = 2
+N = 464
+f = q + a*q^3 + q^5 + 2*q^7 + 2*q^9 - 5*a*q^11 + O(q^12)
+predicted torsion order equal to bound = 1
+N = 464
+f = q + a*q^3 + q^5 + 2*q^7 - 4*q^9 + a*q^11 + O(q^12)
+predicted torsion order equal to bound = 1
+N = 464
+f = q + a*q^3 - 3*q^5 - 2*q^7 - 2*q^9 - a*q^11 + O(q^12)
+predicted torsion order equal to bound = 1
+N = 464
+f = q + (a + 1)*q^2 + (-a - 1)*q^3 + 2*a*q^4 + (-a - 1)*q^5 - 2*a*q^6 - 2*a*q^7 
++ (2*a - 2)*q^8 - a*q^9 - 2*a*q^10 + (-a + 1)*q^11 + O(q^12)
+predicted torsion order equal to bound = 4
+N = 464
+f = q + (-a - 1)*q^2 + (a + 1)*q^3 + 2*a*q^4 + (-a - 1)*q^5 - 2*a*q^6 - 2*a*q^7 
++ (-2*a + 2)*q^8 - a*q^9 + 2*a*q^10 + (a - 1)*q^11 + O(q^12)
+predicted torsion order equal to bound = 4
+N = 465
+f = q + a*q^2 - q^3 + q^4 - q^5 - a*q^6 + (-a - 3)*q^7 - a*q^8 + q^9 - a*q^10 + 
+(-2*a + 2)*q^11 + O(q^12)
+predicted torsion order equal to bound = 2
+N = 465
+f = q + a*q^2 + q^3 + (-2*a - 1)*q^4 - q^5 + a*q^6 + (-a - 3)*q^7 + (a - 2)*q^8 
++ q^9 - a*q^10 + (2*a + 2)*q^11 + O(q^12)
+predicted torsion order equal to bound = 2
+N = 465
+f = q + (-a - 1)*q^3 - 2*q^4 - a*q^5 + (4*a + 4)*q^7 + a*q^9 + 3*a*q^11 + 
+O(q^12)
+predicted torsion order equal to bound = 3
+N = 466
+f = q - q^2 + (-a - 1)*q^3 + q^4 + (a + 1)*q^5 + (a + 1)*q^6 - 2*a*q^7 - q^8 - 
+a*q^9 + (-a - 1)*q^10 + (-a - 1)*q^11 + O(q^12)
+predicted torsion order equal to bound = 4
+N = 466
+f = q + q^2 + q^4 + a*q^5 - 4*q^7 + q^8 + 3*q^9 + a*q^10 + O(q^12)
+predicted torsion order equal to bound = 2
+N = 466
+f = q + q^2 + a*q^3 + q^4 + a*q^6 - 4*q^7 + q^8 - 4*q^9 + 2*a*q^11 + O(q^12)
+predicted torsion order equal to bound = 1
+N = 468
+f = q + (a + 2)*q^3 + (-2*a - 2)*q^7 + (3*a + 3)*q^9 + (6*a + 6)*q^11 + O(q^12)
+predicted torsion order equal to bound = 3
+N = 468
+f = q + (-a + 2)*q^7 + O(q^12)
+predicted torsion order equal to bound = 1
+N = 468
+f = q + (a - 2)*q^7 + (3*a + 3)*q^11 + O(q^12)
+predicted torsion order equal to bound = 4
+N = 468
+f = q + (-2*a + 1)*q^5 + (-2*a + 4)*q^7 + (-2*a - 2)*q^11 + O(q^12)
+predicted torsion order equal to bound = 1
+N = 468
+f = q + (-a + 2)*q^3 + (-a - 1)*q^5 + (2*a + 2)*q^7 + (-3*a + 3)*q^9 + (2*a - 
+1)*q^11 + O(q^12)
+predicted torsion order equal to bound = 1
+N = 468
+f = q + (-2*a + 1)*q^3 + (-a + 2)*q^5 + (-4*a + 2)*q^7 - 3*q^9 + (-a + 2)*q^11 +
+O(q^12)
+predicted torsion order equal to bound = 4
+N = 468
+f = q + (a + 1)*q^2 + 2*a*q^4 + (a + 1)*q^5 + (2*a + 2)*q^7 + (2*a - 2)*q^8 + 
+2*a*q^10 + (-4*a - 4)*q^11 + O(q^12)
+predicted torsion order equal to bound = 2
+N = 468
+f = q + (a + 1)*q^2 + 2*a*q^4 + (a + 1)*q^5 + (-2*a - 2)*q^7 + (2*a - 2)*q^8 + 
+2*a*q^10 + (4*a + 4)*q^11 + O(q^12)
+predicted torsion order equal to bound = 2
+N = 468
+f = q + (-a + 1)*q^2 - 2*a*q^4 + (-2*a - 2)*q^5 + (-2*a - 2)*q^8 - 4*q^10 + (-a 
+- 1)*q^11 + O(q^12)
+predicted torsion order equal to bound = 2
+N = 468
+f = q + (a + 1)*q^2 + 2*a*q^4 + (3*a + 3)*q^5 + (2*a - 2)*q^8 + 6*a*q^10 + 
+O(q^12)
+predicted torsion order equal to bound = 2
+N = 468
+f = q + (a - 1)*q^2 - 2*a*q^4 + (-2*a - 2)*q^5 + (2*a + 2)*q^8 + 4*q^10 + (a + 
+1)*q^11 + O(q^12)
+predicted torsion order equal to bound = 2
+N = 468
+f = q + (-a - 1)*q^2 + 2*a*q^4 + (3*a + 3)*q^5 + (-2*a + 2)*q^8 - 6*a*q^10 + 
+O(q^12)
+predicted torsion order equal to bound = 2
+N = 468
+f = q + (-a - 1)*q^2 + 2*a*q^4 + (-3*a - 3)*q^5 + (-2*a + 2)*q^8 + 6*a*q^10 + 
+O(q^12)
+predicted torsion order equal to bound = 2
+N = 468
+f = q + 5*a*q^7 + O(q^12)
+predicted torsion order equal to bound = 3
+N = 468
+f = q - 2*q^5 + a*q^7 + (2*a + 2)*q^11 + O(q^12)
+predicted torsion order equal to bound = 1
+N = 468
+f = q - 2*q^5 + a*q^7 + (-5*a - 5)*q^11 + O(q^12)
+predicted torsion order equal to bound = 4
+N = 468
+f = q + 3*q^5 - 4*a*q^7 + O(q^12)
+predicted torsion order equal to bound = 3
+N = 468
+f = q - a*q^7 + O(q^12)
+predicted torsion order equal to bound = 4
+N = 468
+f = q + a*q^5 + a*q^11 + O(q^12)
+predicted torsion order equal to bound = 4
+N = 468
+f = q + a*q^5 - 2*a*q^7 - 3*a*q^11 + O(q^12)
+predicted torsion order equal to bound = 4
+N = 469
+f = q + a*q^2 - a*q^3 + (a + 2)*q^4 + (a - 2)*q^5 + (-a - 4)*q^6 + q^7 + (a + 
+4)*q^8 + (a + 1)*q^9 + (-a + 4)*q^10 + 4*q^11 + O(q^12)
+predicted torsion order equal to bound = 1
+N = 469
+f = q + q^2 + (a - 1)*q^3 - q^4 + (a - 1)*q^5 + (a - 1)*q^6 + q^7 - 3*q^8 + (-a 
++ 2)*q^9 + (a - 1)*q^10 + 4*q^11 + O(q^12)
+predicted torsion order equal to bound = 2
+N = 469
+f = q + (2*a - 1)*q^2 + (a - 1)*q^3 - q^4 - 3*a*q^5 + (-a - 1)*q^6 + (2*a + 
+1)*q^7 + (2*a - 1)*q^8 + 2*a*q^9 + (-3*a + 6)*q^10 + (4*a - 2)*q^11 + O(q^12)
+predicted torsion order equal to bound = 4
+N = 469
+f = q + (a + 1)*q^2 + 2*q^3 + a*q^4 + (2*a + 2)*q^6 + (3*a - 2)*q^7 + (-2*a + 
+1)*q^8 + q^9 + (-3*a + 6)*q^11 + O(q^12)
+predicted torsion order equal to bound = 1
+N = 469
+f = q + (a + 1)*q^2 - 2*q^3 + a*q^4 + (-2*a - 2)*q^6 + (-a - 2)*q^7 + (-2*a + 
+1)*q^8 + q^9 + (-3*a + 6)*q^11 + O(q^12)
+predicted torsion order equal to bound = 1
+N = 469
+f = q + (-a + 2)*q^2 + a*q^3 + (-a + 1)*q^4 + (-3*a + 3)*q^5 + (a + 1)*q^6 + 
+(-3*a + 1)*q^7 + (2*a - 1)*q^8 + (-2*a + 2)*q^9 + (-6*a + 3)*q^10 + (-2*a - 
+2)*q^11 + O(q^12)
+predicted torsion order equal to bound = 1
+N = 469
+f = q + (-a - 1)*q^2 - 2*q^3 - a*q^4 + (2*a + 2)*q^6 - a*q^7 - 3*q^8 + q^9 + 
+3*a*q^11 + O(q^12)
+predicted torsion order equal to bound = 1
+N = 469
+f = q + a*q^2 - 5*q^4 - a*q^7 - 3*a*q^8 - 3*q^9 - 2*a*q^11 + O(q^12)
+predicted torsion order = 2
+N = 470
+f = q - q^2 + a*q^3 + q^4 + q^5 - a*q^6 + 4*q^7 - q^8 + (a + 2)*q^9 - q^10 + (a 
+- 3)*q^11 + O(q^12)
+predicted torsion order equal to bound = 1
+N = 470
+f = q + a*q^2 + a*q^3 - q^4 + (a - 2)*q^5 - q^6 + 3*a*q^7 - a*q^8 + 2*q^9 + 
+(-2*a - 1)*q^10 - 3*q^11 + O(q^12)
+predicted torsion order equal to bound = 5
+N = 470
+f = q - 1/3*a*q^2 + a*q^3 - q^4 + 1/3*(a - 6)*q^5 + 3*q^6 - a*q^7 + 1/3*a*q^8 - 
+6*q^9 + 1/3*(2*a + 3)*q^10 - 5*q^11 + O(q^12)
+predicted torsion order equal to bound = 1
+N = 471
+f = q + a*q^2 + q^3 + (-a - 1)*q^4 - q^5 + a*q^6 - 3*q^7 + (-2*a - 1)*q^8 + q^9 
+- a*q^10 + (-3*a - 2)*q^11 + O(q^12)
+predicted torsion order equal to bound = 1
+N = 472
+f = q + 1/2*(-a - 2)*q^2 - 2*q^3 - 2*q^4 + (a + 2)*q^6 + (a + 2)*q^8 + q^9 + (a 
++ 2)*q^11 + O(q^12)
+predicted torsion order equal to bound = 4
+N = 473
+f = q + a*q^2 - 2*q^3 + (a - 1)*q^4 + (-2*a + 2)*q^5 - 2*a*q^6 + (2*a - 1)*q^7 +
+(-2*a + 1)*q^8 + q^9 - 2*q^10 - q^11 + O(q^12)
+predicted torsion order equal to bound = 1
+N = 473
+f = q + a*q^2 - 2*a*q^3 + (a - 1)*q^4 + 2*a*q^5 + (-2*a - 2)*q^6 + (-2*a - 
+1)*q^7 + (-2*a + 1)*q^8 + (4*a + 1)*q^9 + (2*a + 2)*q^10 + q^11 + O(q^12)
+predicted torsion order equal to bound = 5
+N = 473
+f = q + q^2 + (a + 1)*q^3 - q^4 + (-3*a - 3)*q^5 + (a + 1)*q^6 - a*q^7 - 3*q^8 -
+2*a*q^9 + (-3*a - 3)*q^10 - q^11 + O(q^12)
+predicted torsion order equal to bound = 4
+N = 473
+f = q + q^2 + (-a - 1)*q^3 - q^4 + (a + 1)*q^5 + (-a - 1)*q^6 - 3*a*q^7 - 3*q^8 
+- 2*a*q^9 + (a + 1)*q^10 + q^11 + O(q^12)
+predicted torsion order equal to bound = 4
+N = 473
+f = q - 2*q^4 + 3*q^9 + 1/2*(a + 1)*q^11 + O(q^12)
+predicted torsion order equal to bound = 1
+N = 474
+f = q - q^2 - q^3 + q^4 + a*q^5 + q^6 + (a + 1)*q^7 - q^8 + q^9 - a*q^10 + 
+O(q^12)
+predicted torsion order equal to bound = 1
+N = 474
+f = q - q^2 + q^3 + q^4 + a*q^5 - q^6 + (3*a - 5)*q^7 - q^8 + q^9 - a*q^10 + 
+4*q^11 + O(q^12)
+predicted torsion order equal to bound = 1
+N = 474
+f = q + (a + 1)*q^2 + (a + 1)*q^3 + a*q^4 + 2*a*q^5 + a*q^6 + 3*a*q^7 - q^8 + 
+a*q^9 - 2*q^10 - 2*a*q^11 + O(q^12)
+predicted torsion order equal to bound = 1
+N = 474
+f = q + (a + 1)*q^2 + (-a - 1)*q^3 + a*q^4 - 2*a*q^5 - a*q^6 - a*q^7 - q^8 + 
+a*q^9 + 2*q^10 - 2*a*q^11 + O(q^12)
+predicted torsion order equal to bound = 1
+N = 474
+f = q + (a + 1)*q^2 + (-a - 1)*q^3 + a*q^4 + 3*a*q^5 - a*q^6 - a*q^7 - q^8 + 
+a*q^9 - 3*q^10 + 3*a*q^11 + O(q^12)
+predicted torsion order equal to bound = 3
+N = 474
+f = q + (-a - 1)*q^2 + (a + 1)*q^3 + a*q^4 - 2*a*q^5 - a*q^6 + 3*a*q^7 + q^8 + 
+a*q^9 - 2*q^10 - 4*a*q^11 + O(q^12)
+predicted torsion order equal to bound = 1
+N = 475
+f = q - a*q^3 + 2*q^4 + 1/2*a*q^7 - q^9 + 3*q^11 + O(q^12)
+predicted torsion order equal to bound = 1
+N = 475
+f = q + (-2*a - 2)*q^3 - 2*a*q^4 + 4*q^7 + a*q^9 + 3*q^11 + O(q^12)
+predicted torsion order equal to bound = 1
+N = 475
+f = q + (2*a + 2)*q^2 + 2*a*q^4 + 4*q^7 - 3*a*q^9 - q^11 + O(q^12)
+predicted torsion order equal to bound = 1
+N = 475
+f = q + (-2*a - 2)*q^2 + 2*a*q^4 - 4*q^7 - 3*a*q^9 - q^11 + O(q^12)
+predicted torsion order equal to bound = 1
+N = 476
+f = q + a*q^3 + (a + 1)*q^5 - q^7 - a*q^9 + 4*q^11 + O(q^12)
+predicted torsion order equal to bound = 1
+N = 476
+f = q + a*q^3 + (-a - 1)*q^5 - q^7 + (-a - 2)*q^9 + (-2*a - 4)*q^11 + O(q^12)
+predicted torsion order equal to bound = 1
+N = 476
+f = q + a*q^3 + (-a - 3)*q^5 + q^7 + (-3*a - 2)*q^9 + (2*a + 4)*q^11 + O(q^12)
+predicted torsion order equal to bound = 1
+N = 476
+f = q + a*q^3 + (a - 1)*q^5 + q^7 + a*q^9 + O(q^12)
+predicted torsion order equal to bound = 3
+N = 476
+f = q + (a + 1)*q^3 + (2*a + 3)*q^7 - 2*a*q^9 + (5*a + 5)*q^11 + O(q^12)
+predicted torsion order equal to bound = 1
+N = 476
+f = q + (-a - 1)*q^3 - 4*a*q^5 + (-2*a - 3)*q^7 - 2*a*q^9 + (3*a + 3)*q^11 + 
+O(q^12)
+predicted torsion order equal to bound = 1
+N = 476
+f = q + (3*a + 3)*q^3 + 4*a*q^5 + (-2*a + 1)*q^7 + 6*a*q^9 + (-a - 1)*q^11 + 
+O(q^12)
+predicted torsion order equal to bound = 1
+N = 480
+f = q + 1/4*(a + 2)*q^3 + 1/4*(a + 2)*q^5 - 2*q^7 - q^9 + (a + 2)*q^11 + O(q^12)
+predicted torsion order equal to bound = 4
+N = 480
+f = q + 1/4*a*q^3 + 1/2*(-a + 2)*q^5 + a*q^7 - q^9 + O(q^12)
+predicted torsion order equal to bound = 4
+N = 480
+f = q + 1/4*a*q^3 + 1/2*(a + 2)*q^5 + a*q^7 - q^9 + O(q^12)
+predicted torsion order equal to bound = 4
+N = 480
+f = q - 1/2*a*q^3 + 1/2*(a - 4)*q^5 + a*q^7 - q^9 + 6*q^11 + O(q^12)
+predicted torsion order equal to bound = 4
+N = 480
+f = q - 1/2*a*q^3 + 1/2*(-a - 4)*q^5 + a*q^7 - q^9 - 6*q^11 + O(q^12)
+predicted torsion order equal to bound = 4
+N = 481
+f = q - a*q^2 + 2*a*q^3 + q^4 + 2*q^6 + (-3*a + 3)*q^7 - 3*a*q^8 - q^9 + (-a - 
+1)*q^11 + O(q^12)
+predicted torsion order equal to bound = 4
+N = 481
+f = q - q^2 + 2*a*q^3 - q^4 - 2*a*q^6 + (3*a + 3)*q^7 + 3*q^8 - q^9 + (-a + 
+1)*q^11 + O(q^12)
+predicted torsion order equal to bound = 4
+N = 481
+f = q + (a + 1)*q^2 - 2*a*q^3 - a*q^4 + a*q^5 + 2*q^6 - 2*a*q^7 + 3*q^8 + (-a - 
+1)*q^9 - q^10 + O(q^12)
+predicted torsion order equal to bound = 1
+N = 481
+f = q + (2*a - 1)*q^2 + a*q^3 - q^4 + (a + 1)*q^5 + (a - 2)*q^6 + (-4*a + 2)*q^7
++ (2*a - 1)*q^8 + (-2*a + 2)*q^9 + (3*a - 3)*q^10 + (3*a + 3)*q^11 + O(q^12)
+predicted torsion order equal to bound = 4
+N = 481
+f = q - a*q^2 - 2*q^3 + (a + 1)*q^4 + a*q^5 + 2*a*q^6 + (-4*a - 4)*q^7 + 3*q^8 +
+q^9 + (a + 1)*q^10 + (6*a + 6)*q^11 + O(q^12)
+predicted torsion order equal to bound = 1
+N = 481
+f = q - q^2 + (2*a + 2)*q^3 - q^4 + a*q^5 + (-2*a - 2)*q^6 + 4*q^7 + 3*q^8 + 
+a*q^9 - a*q^10 - 6*a*q^11 + O(q^12)
+predicted torsion order equal to bound = 1
+N = 481
+f = q + (a + 1)*q^2 - q^3 + a*q^4 + (-a - 1)*q^5 + (-a - 1)*q^6 + (-2*a + 4)*q^7
++ (-2*a + 1)*q^8 - 2*q^9 - 3*a*q^10 + (-3*a + 6)*q^11 + O(q^12)
+predicted torsion order equal to bound = 1
+N = 482
+f = q + q^2 - q^3 + q^4 + (a + 1)*q^5 - q^6 + (-2*a - 7)*q^7 + q^8 - 2*q^9 + (a 
++ 1)*q^10 - 3*q^11 + O(q^12)
+predicted torsion order equal to bound = 5
+N = 482
+f = q + (-a + 1)*q^2 - 2*a*q^3 - a*q^4 + 3*q^5 - 2*q^6 - q^8 + (a - 1)*q^9 + 
+(-3*a + 3)*q^10 + (-2*a - 2)*q^11 + O(q^12)
+predicted torsion order equal to bound = 1
+N = 482
+f = q + (a - 1)*q^2 - 2*a*q^3 - a*q^4 + 2*q^6 + (-a - 1)*q^7 + q^8 + (a - 1)*q^9
++ (-2*a - 2)*q^11 + O(q^12)
+predicted torsion order equal to bound = 1
+N = 482
+f = q + (-a - 1)*q^2 - 2*a*q^3 + a*q^4 + q^5 - 2*q^6 + (-4*a - 4)*q^7 + q^8 + 
+(-a - 1)*q^9 + (-a - 1)*q^10 + (-2*a - 2)*q^11 + O(q^12)
+predicted torsion order equal to bound = 1
+N = 483
+f = q + a*q^2 - q^3 + (-a - 1)*q^4 + (a + 1)*q^5 - a*q^6 - q^7 + (-2*a - 1)*q^8 
++ q^9 + q^10 + (-2*a - 1)*q^11 + O(q^12)
+predicted torsion order equal to bound = 1
+N = 483
+f = q + a*q^2 - q^3 + (a - 1)*q^4 + (-a - 1)*q^5 - a*q^6 + q^7 + (-2*a + 1)*q^8 
++ q^9 + (-2*a - 1)*q^10 + (-2*a + 1)*q^11 + O(q^12)
+predicted torsion order equal to bound = 1
+N = 483
+f = q + a*q^2 + q^3 + (-a + 1)*q^4 + (-a - 3)*q^5 + a*q^6 - q^7 - 3*q^8 + q^9 + 
+(-2*a - 3)*q^10 - 5*q^11 + O(q^12)
+predicted torsion order equal to bound = 1
+N = 483
+f = q + a*q^2 + q^3 + (-3*a - 3)*q^4 + (a - 1)*q^5 + a*q^6 + q^7 + (4*a + 3)*q^8
++ q^9 + (-4*a - 1)*q^10 + (-4*a - 7)*q^11 + O(q^12)
+predicted torsion order equal to bound = 1
+N = 483
+f = q + a*q^2 + q^3 + (-a - 1)*q^4 + (a + 3)*q^5 + a*q^6 + q^7 + (-2*a - 1)*q^8 
++ q^9 + (2*a + 1)*q^10 + q^11 + O(q^12)
+predicted torsion order equal to bound = 11
+N = 483
+f = q + (-a - 1)*q^3 + (2*a + 2)*q^4 + (3*a + 2)*q^7 + a*q^9 + (2*a + 2)*q^11 + 
+O(q^12)
+predicted torsion order equal to bound = 1
+N = 483
+f = q + (-a - 1)*q^3 + (2*a + 2)*q^4 + (-a + 2)*q^7 + a*q^9 + (-6*a - 6)*q^11 + 
+O(q^12)
+predicted torsion order equal to bound = 3
+N = 483
+f = q - a*q^2 + (-a - 1)*q^3 + (a + 1)*q^4 + a*q^5 - q^6 + (a - 2)*q^7 + 3*q^8 +
+a*q^9 + (a + 1)*q^10 + (2*a + 2)*q^11 + O(q^12)
+predicted torsion order equal to bound = 1
+N = 483
+f = q - a*q^2 + (-a - 1)*q^3 + (a + 1)*q^4 - 3*a*q^5 - q^6 + (-3*a - 2)*q^7 + 
+3*q^8 + a*q^9 + (-3*a - 3)*q^10 + (2*a + 2)*q^11 + O(q^12)
+predicted torsion order equal to bound = 1
+N = 484
+f = q + a*q^3 + (-a + 2)*q^5 + (a + 5)*q^9 + O(q^12)
+predicted torsion order = 2
+N = 484
+f = q + a*q^3 + (a + 1)*q^5 + (3*a + 4)*q^7 + (-3*a - 4)*q^9 + O(q^12)
+predicted torsion order equal to bound = 1
+N = 484
+f = q + 2*q^3 + 3*q^5 + (-a + 5)*q^7 + q^9 + O(q^12)
+predicted torsion order equal to bound = 1
+N = 484
+f = q + a*q^3 + (a + 1)*q^5 + (-3*a - 4)*q^7 + (-3*a - 4)*q^9 + O(q^12)
+predicted torsion order equal to bound = 1
+N = 484
+f = q + (-a + 4)*q^2 - 2*q^4 - 4*q^5 + (2*a - 8)*q^8 + 3*q^9 + (4*a - 16)*q^10 +
+O(q^12)
+predicted torsion order equal to bound = 2
+N = 485
+f = q + a*q^2 + 1/2*(a + 1)*q^3 + 3*q^4 - q^5 + 1/2*(a + 5)*q^6 + 4*q^7 + a*q^8 
++ 1/2*(a - 3)*q^9 - a*q^10 + (-a - 3)*q^11 + O(q^12)
+predicted torsion order equal to bound = 1
+N = 485
+f = q + q^2 + (a - 1)*q^3 - q^4 + q^5 + (a - 1)*q^6 - 3*q^8 + (a + 3)*q^9 + q^10
++ (-2*a + 4)*q^11 + O(q^12)
+predicted torsion order equal to bound = 1
+N = 485
+f = q - a*q^3 + 2*q^4 + (a + 1)*q^5 - 3*q^7 - q^9 + 3*q^11 + O(q^12)
+predicted torsion order equal to bound = 1
+N = 485
+f = q - a*q^3 + 2*q^4 + (-a - 1)*q^5 + 3*q^7 - q^9 + 3*q^11 + O(q^12)
+predicted torsion order equal to bound = 1
+N = 486
+f = q + (a + 1)*q^2 + a*q^4 + (a + 1)*q^7 - q^8 + (6*a + 6)*q^11 + O(q^12)
+predicted torsion order equal to bound = 3
+N = 486
+f = q + (a + 1)*q^2 + a*q^4 - 3*a*q^5 + (-2*a - 2)*q^7 - q^8 + 3*q^10 + O(q^12)
+predicted torsion order equal to bound = 3
+N = 486
+f = q + (a + 1)*q^2 + a*q^4 + 3*a*q^5 + (4*a + 4)*q^7 - q^8 - 3*q^10 + (-6*a - 
+6)*q^11 + O(q^12)
+predicted torsion order equal to bound = 3
+N = 486
+f = q + (-a - 1)*q^2 + a*q^4 + (a + 1)*q^7 + q^8 + (-6*a - 6)*q^11 + O(q^12)
+predicted torsion order equal to bound = 3
+N = 486
+f = q + (-a - 1)*q^2 + a*q^4 - 3*a*q^5 + (4*a + 4)*q^7 + q^8 - 3*q^10 + (6*a + 
+6)*q^11 + O(q^12)
+predicted torsion order equal to bound = 3
+N = 486
+f = q + (-a - 1)*q^2 + a*q^4 + 3*a*q^5 + (-2*a - 2)*q^7 + q^8 + 3*q^10 + O(q^12)
+predicted torsion order equal to bound = 3
+N = 487
+f = q + a*q^3 - 2*q^4 + (-a + 1)*q^5 + (2*a + 1)*q^7 - a*q^9 - q^11 + O(q^12)
+predicted torsion order equal to bound = 1
+N = 487
+f = q - a*q^3 - 2*q^4 + (-a - 1)*q^5 - q^7 + (-3*a - 2)*q^9 + (2*a + 5)*q^11 + 
+O(q^12)
+predicted torsion order equal to bound = 3
+N = 488
+f = q - q^5 + (-a - 1)*q^7 - 3*q^9 + (3*a - 1)*q^11 + O(q^12)
+predicted torsion order equal to bound = 1
+N = 490
+f = q - q^2 + a*q^3 + q^4 - q^5 - a*q^6 - q^8 + (-4*a - 5)*q^9 + q^10 + (2*a + 
+6)*q^11 + O(q^12)
+predicted torsion order equal to bound = 2
+N = 490
+f = q - q^2 + a*q^3 + q^4 + q^5 - a*q^6 - q^8 + (4*a - 5)*q^9 - q^10 + (-2*a + 
+6)*q^11 + O(q^12)
+predicted torsion order equal to bound = 2
+N = 490
+f = q + 1/3*a*q^2 + a*q^3 - q^4 + 1/3*(2*a + 3)*q^5 - 3*q^6 - 1/3*a*q^8 - 6*q^9 
++ 1/3*(a - 6)*q^10 + O(q^12)
+predicted torsion order equal to bound = 1
+N = 490
+f = q - 1/3*a*q^2 + a*q^3 - q^4 + 1/3*(2*a - 3)*q^5 + 3*q^6 + 1/3*a*q^8 - 6*q^9 
++ 1/3*(a + 6)*q^10 + O(q^12)
+predicted torsion order equal to bound = 1
+N = 490
+f = q + 1/5*(-a - 3)*q^2 - q^4 + 1/5*(-a + 7)*q^5 + 1/5*(a + 3)*q^8 + 3*q^9 + 
+1/5*(-2*a - 11)*q^10 + 3*q^11 + O(q^12)
+predicted torsion order equal to bound = 1
+N = 490
+f = q + 1/5*(a + 3)*q^2 - q^4 + 1/5*(-a - 13)*q^5 + 1/5*(-a - 3)*q^8 + 3*q^9 + 
+1/5*(-2*a - 1)*q^10 + 3*q^11 + O(q^12)
+predicted torsion order equal to bound = 1
+N = 490
+f = q - a*q^2 + (a + 1)*q^3 + (-a - 1)*q^4 + a*q^5 + q^6 - q^8 - 2*a*q^9 + (a + 
+1)*q^10 + (6*a + 6)*q^11 + O(q^12)
+predicted torsion order equal to bound = 1
+N = 490
+f = q - a*q^2 + (-2*a - 2)*q^3 + (-a - 1)*q^4 - a*q^5 - 2*q^6 - q^8 + a*q^9 + 
+(-a - 1)*q^10 + (-3*a - 3)*q^11 + O(q^12)
+predicted torsion order equal to bound = 1
+N = 490
+f = q + a*q^2 + (-a - 1)*q^4 - a*q^5 + q^8 - 3*a*q^9 + (a + 1)*q^10 + (-4*a - 
+4)*q^11 + O(q^12)
+predicted torsion order equal to bound = 1
+N = 490
+f = q + a*q^2 + (-a - 1)*q^4 + a*q^5 + q^8 - 3*a*q^9 + (-a - 1)*q^10 + (-4*a - 
+4)*q^11 + O(q^12)
+predicted torsion order equal to bound = 1
+N = 490
+f = q + a*q^2 + (2*a + 2)*q^3 + (-a - 1)*q^4 - a*q^5 - 2*q^6 + q^8 + a*q^9 + (a 
++ 1)*q^10 + (4*a + 4)*q^11 + O(q^12)
+predicted torsion order equal to bound = 1
+N = 490
+f = q + a*q^2 + (-2*a - 2)*q^3 + (-a - 1)*q^4 + a*q^5 + 2*q^6 + q^8 + a*q^9 + 
+(-a - 1)*q^10 + (-3*a - 3)*q^11 + O(q^12)
+predicted torsion order equal to bound = 1
+N = 490
+f = q + a*q^2 + (-2*a - 2)*q^3 + (-a - 1)*q^4 + a*q^5 + 2*q^6 + q^8 + a*q^9 + 
+(-a - 1)*q^10 + (4*a + 4)*q^11 + O(q^12)
+predicted torsion order equal to bound = 1
+N = 490
+f = q + a*q^2 + (3*a + 3)*q^3 + (-a - 1)*q^4 + a*q^5 - 3*q^6 + q^8 + 6*a*q^9 + 
+(-a - 1)*q^10 + (2*a + 2)*q^11 + O(q^12)
+predicted torsion order equal to bound = 1
+N = 491
+f = q + a*q^2 - a*q^3 + (a - 1)*q^4 + (a - 1)*q^5 + (-a - 1)*q^6 + (-3*a + 
+2)*q^7 + (-2*a + 1)*q^8 + (a - 2)*q^9 + q^10 + (a - 2)*q^11 + O(q^12)
+predicted torsion order equal to bound = 1
+N = 492
+f = q - q^3 + a*q^5 + (a + 4)*q^7 + q^9 + (-a - 3)*q^11 + O(q^12)
+predicted torsion order equal to bound = 1
+N = 492
+f = q + q^3 + a*q^5 + a*q^7 + q^9 + (-a + 3)*q^11 + O(q^12)
+predicted torsion order equal to bound = 1
+N = 493
+f = q + q^2 + (-a + 1)*q^3 - q^4 + (-a + 3)*q^5 + (-a + 1)*q^6 + (-a + 4)*q^7 - 
+3*q^8 + a*q^9 + (-a + 3)*q^10 + (a - 1)*q^11 + O(q^12)
+predicted torsion order equal to bound = 1
+N = 494
+f = q + (a + 1)*q^2 + (-2*a - 2)*q^3 + a*q^4 - 3*q^5 - 2*a*q^6 - q^8 + a*q^9 + 
+(-3*a - 3)*q^10 + (6*a + 6)*q^11 + O(q^12)
+predicted torsion order equal to bound = 1
+N = 494
+f = q + 1/3*(a - 1)*q^2 + q^3 - q^4 + (-a + 1)*q^5 + 1/3*(a - 1)*q^6 + 1/3*(-a +
+1)*q^7 + 1/3*(-a + 1)*q^8 - 2*q^9 + 3*q^10 + 1/3*(-2*a + 2)*q^11 + O(q^12)
+predicted torsion order equal to bound = 1
+N = 494
+f = q + (a + 1)*q^2 + (a + 1)*q^3 + a*q^4 + (-4*a - 4)*q^5 + a*q^6 + 2*q^7 - q^8
+- 2*a*q^9 - 4*a*q^10 + 3*q^11 + O(q^12)
+predicted torsion order equal to bound = 1
+N = 494
+f = q + (a + 1)*q^2 + (-2*a - 2)*q^3 + a*q^4 - 2*a*q^6 - q^8 + a*q^9 + 3*q^11 + 
+O(q^12)
+predicted torsion order equal to bound = 1
+N = 494
+f = q + (a + 1)*q^2 + (3*a + 3)*q^3 + a*q^4 + 3*a*q^6 - q^8 + 6*a*q^9 + 3*q^11 +
+O(q^12)
+predicted torsion order equal to bound = 1
+N = 494
+f = q + (a + 1)*q^2 + (-3*a - 3)*q^3 + a*q^4 + (4*a + 4)*q^5 - 3*a*q^6 - 2*q^7 -
+q^8 + 6*a*q^9 + 4*a*q^10 - 5*q^11 + O(q^12)
+predicted torsion order equal to bound = 1
+N = 494
+f = q - a*q^2 + (-a - 1)*q^4 + (a + 1)*q^5 + a*q^7 - q^8 + (3*a + 3)*q^9 + q^10 
++ (5*a + 5)*q^11 + O(q^12)
+predicted torsion order equal to bound = 1
+N = 494
+f = q - a*q^2 + (-a - 1)*q^4 + (-3*a - 3)*q^5 - 3*a*q^7 - q^8 + (3*a + 3)*q^9 - 
+3*q^10 + (-3*a - 3)*q^11 + O(q^12)
+predicted torsion order equal to bound = 1
+N = 494
+f = q - q^2 + q^4 + (a + 1)*q^5 + (-a - 1)*q^7 - q^8 - 3*q^9 + (-a - 1)*q^10 - 
+5*a*q^11 + O(q^12)
+predicted torsion order equal to bound = 4
+N = 494
+f = q - q^2 + q^4 + (-3*a - 3)*q^5 + (3*a + 3)*q^7 - q^8 - 3*q^9 + (3*a + 
+3)*q^10 + 3*a*q^11 + O(q^12)
+predicted torsion order equal to bound = 4
+N = 495
+f = q + a*q^2 + (-2*a - 1)*q^4 + q^5 - 2*q^7 + (a - 2)*q^8 + a*q^10 - q^11 + 
+O(q^12)
+predicted torsion order equal to bound = 4
+N = 495
+f = q + a*q^2 + q^4 + q^5 + 2*q^7 - a*q^8 + a*q^10 + q^11 + O(q^12)
+predicted torsion order equal to bound = 12
+N = 495
+f = q + a*q^2 + (2*a - 1)*q^4 + q^5 + (2*a - 4)*q^7 + (a + 2)*q^8 + a*q^10 + 
+q^11 + O(q^12)
+predicted torsion order equal to bound = 4
+N = 495
+f = q + (-2*a - 1)*q^3 - 2*a*q^4 - a*q^5 + (-2*a - 2)*q^7 - 3*q^9 + (-a - 
+1)*q^11 + O(q^12)
+predicted torsion order equal to bound = 3
+N = 495
+f = q + (-2*a - 1)*q^3 - 2*a*q^4 + a*q^5 + (-2*a - 2)*q^7 - 3*q^9 + (a + 1)*q^11
++ O(q^12)
+predicted torsion order equal to bound = 3
+N = 496
+f = q - 2*q^3 + (-a - 2)*q^5 + (-a - 4)*q^7 + q^9 + 2*q^11 + O(q^12)
+predicted torsion order = 2
+N = 496
+f = q + a*q^3 + q^5 + (-a + 3)*q^7 + (2*a + 1)*q^9 - 2*q^11 + O(q^12)
+predicted torsion order equal to bound = 1
+N = 496
+f = q + a*q^3 + (2*a + 2)*q^5 - 2*q^7 + (-2*a - 1)*q^9 + (a + 4)*q^11 + O(q^12)
+predicted torsion order equal to bound = 2
+N = 496
+f = q + (-a - 1)*q^2 + (-a + 1)*q^3 + 2*a*q^4 + (3*a + 3)*q^5 - 2*q^6 - 2*a*q^7 
++ (-2*a + 2)*q^8 + a*q^9 - 6*a*q^10 + (-a - 1)*q^11 + O(q^12)
+predicted torsion order equal to bound = 4
+N = 496
+f = q + (-a + 1)*q^3 + 3*a*q^5 + (-a - 1)*q^7 + 2*a*q^9 + 3*a*q^11 + O(q^12)
+predicted torsion order equal to bound = 4
+N = 496
+f = q + (a - 1)*q^3 + 3*a*q^5 + (a + 1)*q^7 + 2*a*q^9 - 3*a*q^11 + O(q^12)
+predicted torsion order equal to bound = 4
+N = 496
+f = q + (a + 1)*q^3 - a*q^5 + (-3*a - 3)*q^7 - 2*a*q^9 + a*q^11 + O(q^12)
+predicted torsion order equal to bound = 4
+N = 496
+f = q + (a + 1)*q^3 + a*q^5 + (3*a + 3)*q^7 - 2*a*q^9 + 5*a*q^11 + O(q^12)
+predicted torsion order equal to bound = 4
+N = 496
+f = q + (a + 1)*q^3 - 3*a*q^5 + (-a - 1)*q^7 - 2*a*q^9 - 3*a*q^11 + O(q^12)
+predicted torsion order equal to bound = 4
+N = 496
+f = q + (-a - 1)*q^3 - 3*a*q^5 + (5*a + 5)*q^7 - 2*a*q^9 - a*q^11 + O(q^12)
+predicted torsion order equal to bound = 4
+N = 496
+f = q + (-a - 1)*q^3 + 3*a*q^5 + (-a - 1)*q^7 - 2*a*q^9 - a*q^11 + O(q^12)
+predicted torsion order equal to bound = 4
+N = 496
+f = q + (3*a + 3)*q^3 + a*q^5 + (-3*a - 3)*q^7 + 6*a*q^9 + 3*a*q^11 + O(q^12)
+predicted torsion order equal to bound = 4
+N = 496
+f = q + (3*a + 3)*q^3 + 3*a*q^5 + (3*a + 3)*q^7 + 6*a*q^9 - 5*a*q^11 + O(q^12)
+predicted torsion order equal to bound = 4
+N = 496
+f = q + 2*q^3 + 3*q^5 + (a - 5)*q^7 + q^9 + O(q^12)
+predicted torsion order equal to bound = 1
+N = 496
+f = q - 2*q^3 + 3*q^5 + (-a + 1)*q^7 + q^9 + O(q^12)
+predicted torsion order equal to bound = 1
+N = 497
+f = q - q^2 + (a + 1)*q^3 - q^4 + (-a - 1)*q^6 + q^7 + 3*q^8 + (-2*a - 4)*q^9 - 
+q^11 + O(q^12)
+predicted torsion order equal to bound = 1
+N = 497
+f = q + a*q^2 + (-2*a - 2)*q^3 + (a + 1)*q^4 + 3*a*q^5 + 2*q^6 + (3*a + 1)*q^7 -
+3*q^8 + a*q^9 + (-3*a - 3)*q^10 + (-4*a - 4)*q^11 + O(q^12)
+predicted torsion order equal to bound = 1
+N = 497
+f = q + q^2 - q^4 + 1/2*(a - 1)*q^7 - 3*q^8 + 3*q^9 + (a - 1)*q^11 + O(q^12)
+predicted torsion order = 2
+N = 498
+f = q - q^2 + q^3 + q^4 + a*q^5 - q^6 + (-a - 1)*q^7 - q^8 + q^9 - a*q^10 + 
+O(q^12)
+predicted torsion order equal to bound = 3
+N = 498
+f = q + q^2 - q^3 + q^4 + a*q^5 - q^6 + q^8 + q^9 + a*q^10 + (-a + 2)*q^11 + 
+O(q^12)
+predicted torsion order equal to bound = 4
+N = 498
+f = q + q^2 - q^3 + q^4 + a*q^5 - q^6 + (-3*a - 9)*q^7 + q^8 + q^9 + a*q^10 + 
+(4*a + 8)*q^11 + O(q^12)
+predicted torsion order equal to bound = 1
+N = 499
+f = q + a*q^2 + (2*a + 1)*q^3 + (-a - 1)*q^4 + (-a - 3)*q^5 + (-a + 2)*q^6 - q^7
++ (-2*a - 1)*q^8 + 2*q^9 + (-2*a - 1)*q^10 + (-4*a - 3)*q^11 + O(q^12)
+predicted torsion order equal to bound = 1
+N = 500
+f = q + a*q^3 + (-2*a + 3)*q^7 + (a - 2)*q^9 + (2*a - 1)*q^11 + O(q^12)
+predicted torsion order equal to bound = 1
+N = 500
+f = q + a*q^3 + (-2*a - 3)*q^7 + (-a - 2)*q^9 + (-2*a - 1)*q^11 + O(q^12)
 predicted torsion order equal to bound = 1
 [ 19, 20, 21, 10, 7, 13, 11, 12, 5, 4, 3, 16, 6, 28, 8, 2, 1, 14, 18, 9, 44, 22,
 56, 15, 24 ]
