@@ -10,6 +10,6 @@ The file "PossibleTorsionOrders.m" is a MAGMA files with the following functions
  - PossibleTorsionOrders(Nlbd, Nubd, deg)
    the inputs are three integers: Nlbd and Nubd are the extremal of the interval where the level N of the newforms varies; deg is the dimension of the abelian varieties considered;
    this function computes the list of the torsion order predicted by our Theorem 4.2/4.3 for abelian varieties associated to newforms of weight 2, level N and dimension deg.
-The files "g2upto300", "g3upto300", "g4upto300", "g5upto300" contain the output of the function PossibleTorsionOrders(2,300,g) for g=2,3,4,5 respectively.
+The files "gGuptoN.txt" contain the output of the function PossibleTorsionOrders(2,N,G).
 We also print the newforms found in the loop and whether their predicted torsion order matches the bound given by the gcd of the number of points on the abelian varieties.
-With an upper bound on N large enough, the two lists are the same.
+The file "sortedlists.m" contains the code necessary to complete and sort the list of all possible torsion orders (adding the divisors of the orders that are already in the list).
