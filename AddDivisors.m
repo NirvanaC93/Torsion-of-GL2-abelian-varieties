@@ -11,8 +11,3 @@ function AddDivisors(L)
     return L;
 end function;
 
-function SortList(L)
-    L := Setseq(Set(L));
-    Sort(~L);
-    return L;
-end function;
