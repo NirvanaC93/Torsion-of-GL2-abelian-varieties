@@ -6095,8 +6095,6 @@ f = q + 1/8*(-a^3 + 8*a)*q^2 + 1/8*a^3*q^3 + q^4 + 1/4*(a^3 + 4)*q^5 + 1/2*(a^2
 - 2)*q^6 + 1/8*(-a^3 + 4*a^2 + 8*a - 8)*q^7 + 1/8*(a^3 - 8*a)*q^8 - q^9 + 
 1/8*(-a^3 + 8*a^2 + 8*a - 16)*q^10 + 1/8*(-a^3 + 4*a^2 - 8*a + 8)*q^11 + O(q^12)
 predicted torsion order equal to bound = 16
-RMatrixSpace coercion 3.410
-RMatrixSpace coercion 3.420
 N = 436
 f = q + a*q^3 + (-a + 2)*q^5 + (a^3 - a^2 - 4*a + 4)*q^7 + (a^2 - 3)*q^9 + (-a^3
 + a^2 + 5*a - 2)*q^11 + O(q^12)
