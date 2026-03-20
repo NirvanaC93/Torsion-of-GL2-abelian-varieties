@@ -116,7 +116,7 @@ for N := Nlbd to Nubd do
                 end if;
                 print "N =", N;
                 print "f =", f;
-                print "predicted torsion order =", g; //this number divides the torsion order of an abelian variety isogenous to A_f. It is equal if the primes dividing g have a unique prime above them in K.
+                print "predicted torsion order =", g; //this number is the torsion order of an abelian variety isogenous to A_f. It is equal to the gcd of the Np's if the primes dividing g have a unique prime above them in K.
             end if;
         end if;
     end for;
