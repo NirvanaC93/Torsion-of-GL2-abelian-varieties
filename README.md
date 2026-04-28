@@ -8,7 +8,7 @@ The second one accesses the the database LMFDB via the interface at the link htt
 
 # First option - MAGMA only
 
-The file "PossibleTorsionOrders.m" is a MAGMA files with the following functions:
+The file "PossibleTorsionOrders.m" is a MAGMA file with the following functions:
  - TorsionValuation(K, l, x):
    the inputs are a number field K, a rational prime l and an element x of K;
    the function outputs the max over all primes lambda over l of l^(val*f),
@@ -23,7 +23,7 @@ The file "PossibleTorsionOrders.m" is a MAGMA files with the following functions
 The files "gGuptoN.txt" contain the output of the function PossibleTorsionOrders(2,N,G).
 
 We also print the newforms found in the loop and whether their predicted torsion order matches the bound given by the gcd of the number of points on the abelian varieties.
-The file "sortedlists.m" contains the code necessary to complete and sort the list of all possible torsion orders (adding the divisors of the orders that are already in the list).
+The file "sortedlists.m" contains the code necessary to complete and sort the lists of all possible torsion orders (adding the divisors of the orders that are already in the list via the script in "AddDivisors.m").
 
 # Second option (better) - LMFDB and MAGMA
 
@@ -34,19 +34,24 @@ We thank Sam Frengley for suggesting to use that and for allowing us to adapt hi
 The user give as input:
 - the dimension of the abelian varietes (i.e. the degree of the coefficient fields of the forms);
 - lower and upper bounds of the interval where the level N of the newforms varies;
-- the file name of the output (including the .m extension), e.g. "formsgi.m" (for i=2,3,4,5).
+- the file name of the output (including the .m extension), e.g. "forms_gi.m" (for i=2,3,4,5).
 The output is a MAGMA file containing the following lists:
- - "labels" is the list of the labels of the newforms in LMFDB having coefficient fields of degree g=i over Q;
- - "levels" is the list of the levels of the newforms listed in "labels"
- - "fields" is the list of the coefficient fields of the newforms listed in "labels"
+- "labels" is the list of the labels of the newforms in LMFDB having coefficient fields of degree g=i over Q;
+- "levels" is the list of the levels of the newforms listed in "labels";
+- "fields" is the list of the coefficient fields of the newforms listed in "labels";
 - "aps" is the list of the lists of the coefficients "ap" for the newforms listed in "labels"
-(obviously, list[i] will give the data for the i-th newform).
+(obviously, aps[i] will give the data for the i-th newform);
+- "cm" is a list where the entry i is 0 if the i-th form in the list does not have cm, 1 otherwise;
+- "hecke_ring_cyclotomic_generator", "hecke_ring_denominators", "hecke_ring_numerators" and "hecke_ring_power_basis" contain information on how to compute the ap's as elements of the correct number field in MAGMA.
 
 It is very heavy, because it writes very long lists, so it makes sense to run it separately for each g, possibly splitting the N's in intervals.
 
 Open MAGMA and run:
 load "formsgi.m";
-load "getforms.m";
+load "noncm_torsion_orders.m";
 
 This will print the label of each newform listed in the file "formsgi.m" followed by its predicted torsion order. It also clarifies when the predicted torsion order is equal to the one à la Katz.
 At the end, it prints the lists of predicted torsion orders, of the ones that agree with Katz's bound, and of the primes dividing torsion orders.
+Notice it only runs over non-cm forms, since in this case the computation of the Dirichlet character is implemented in a fast way.
+
+The files "torsion_gi.txt" contain the output of this code run for N varying between 1 and 10000 and dimension equal to i=2,3,4,5. The files "AddDivisors.m", "sortedlists.m" and "sortedlists.txt" are analogous as in the previous option.
