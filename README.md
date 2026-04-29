@@ -29,12 +29,13 @@ The file "sortedlists.m" contains the code necessary to complete and sort the li
 
 How to use:
 
-The file getforms.py is a python script that accesses the database LMFDB via the interface at the link https://github.com/roed314/lmfdb-lite
+The file getforms.py is a python script that accesses the database LMFDB via the interface at the link https://github.com/roed314/lmfdb-lite .
 We thank Sam Frengley for suggesting to use that and for allowing us to adapt his code available at https://github.com/dlaird-ens/p-tors-sha/blob/main/data/code/extract_data.py
 The user give as input:
 - the dimension of the abelian varietes (i.e. the degree of the coefficient fields of the forms);
 - lower and upper bounds of the interval where the level N of the newforms varies;
 - the file name of the output (including the .m extension), e.g. "forms_gi.m" (for i=2,3,4,5).
+
 The output is a MAGMA file containing the following lists:
 - "labels" is the list of the labels of the newforms in LMFDB having coefficient fields of degree g=i over Q;
 - "levels" is the list of the levels of the newforms listed in "labels";
