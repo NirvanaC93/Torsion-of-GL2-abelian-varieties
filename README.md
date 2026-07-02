@@ -4,7 +4,7 @@ There are two possible ways to perform the computations.
 
 The first one only uses MAGMA, but is much slower, since it needs to build all the information for each modular form.
 
-The second one accesses the the database LMFDB via the interface at the link https://github.com/roed314/lmfdb-lite (using python), which makes computations quit fast and allowed us to improve our conjectural results.
+The second one accesses the the database LMFDB via the interface at the link https://github.com/roed314/lmfdb-lite (using python), which makes computations quite fast and allowed us to improve our conjectural results.
 
 # First option - MAGMA only
 
